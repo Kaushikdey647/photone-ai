@@ -1,0 +1,46 @@
+:root {
+  --color-bg: #121418;
+  --color-surface: #1a1d24;
+  --color-surface-elevated: #22262e;
+  --color-border: #2c323c;
+  --color-text: #e8eaef;
+  --color-text-muted: #9aa3b2;
+  --color-accent: #6c9eff;
+  --color-accent-muted: #4a72c4;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --font-ui: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-ui);
+  background: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
